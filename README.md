@@ -1,36 +1,45 @@
 ![](https://www.teamly.com/blog/wp-content/uploads/2023/04/healthcare-project-management.png)
 ## Project Overview:
-The main objective of this data science project is to analyze various lifestyle and medical variables of individuals, such as age, BMI, physical activity, sleep duration, blood pressure, etc., and use this information to predict the occurrence and type of sleep disorder they may experience. Sleep disorders, like Insomnia and Sleep Apnea, can have significant impacts on an individual's health and overall well-being. By identifying individuals at risk of sleep disorders, appropriate interventions and treatments can be provided to improve their sleep quality and overall health.
+The primary goal of this data science project is to analyze various patient records, including admissions, diagnoses, bed occupancy, medical tests, and billing information. The analysis aims to provide insights into hospital resource utilization, patient health trends, and financial aspects of healthcare services. By understanding key trends in hospital admissions, common diagnoses, and billing distribution, healthcare providers can optimize patient care, manage hospital resources efficiently, and enhance financial planning.
 ## Dataset Description:
-The dataset used for this project is called the "Sleep Health and Lifestyle Dataset." It consists of 400 rows (individuals) and 13 columns (variables) that cover a wide range of information related to sleep patterns and daily habits. The dataset includes the following key features:
+The dataset used for this project is called the "Papollo Healthcare Dataset." It contains 7,157 patient records spanning from December 2022 to March 2024, covering various aspects of hospital admissions, medical procedures, and patient feedback. The dataset includes the following key sections:
 
-Comprehensive Sleep Metrics:  This section allows exploring various sleep-related metrics such as sleep duration, quality of sleep, and factors influencing sleep patterns.
-
-Lifestyle Factors:  The dataset provides insights into lifestyle factors such as physical activity levels, stress levels, and BMI categories, which may have an impact on an individual's sleep health.
-
-Cardiovascular Health:  The dataset includes measurements of blood pressure and heart rate, which are crucial indicators of an individual's cardiovascular health and may have a correlation with sleep disorders.
-
-Sleep Disorder Analysis:  The primary focus of this project is to identify the presence or absence of sleep disorders in individuals. The dataset labels individuals with three categories in the "Sleep Disorder" column:
-
-- None: Individuals who do not exhibit any specific sleep disorder.
-- Insomnia: Individuals who experience difficulty falling asleep or staying asleep, leading to inadequate or poor-quality sleep.
-- Sleep Apnea: Individuals who suffer from pauses in breathing during sleep, resulting in disrupted sleep patterns and potential health risks.
+1. Patient Demographics & Admissions
+The dataset records unique patient admissions, along with details such as admission date, discharge date, and follow-up schedules.
+Trends in patient influx over time can help hospitals forecast demand for medical services.
+2. Common Diagnoses & Medical Tests
+The dataset provides insights into frequently diagnosed medical conditions, such as Viral Infections, Malaria, and Typhoid.
+Analysis of medical tests (MRI, CT Scans, Blood Tests, etc.) helps in understanding diagnostic trends and test utilization.
+3. Bed Occupancy & Hospital Resource Management
+Patients are categorized into different bed types (General, ICU, and Private).
+Understanding bed occupancy rates over time can assist in capacity planning and resource allocation.
+4. Financial Insights: Billing & Insurance
+The dataset includes billing amounts and insurance coverage for each patient.
+Analyzing billing trends and insurance claims can help hospitals optimize cost structures and revenue management.
+5. Patient Satisfaction & Follow-ups
+The dataset contains patient feedback scores, providing insights into hospital service quality.
+Follow-up trends indicate how quickly patients return for check-ups, highlighting post-hospitalization care effectiveness.
 ### Data Dictionary
 | Column Name | Description |
 | --- | --- |
-|Person_ID | Unique ID assigned to each person |
-|Gender|The gender of the person (Male/Female)|
-|Age | Age of the person in years |
-|Occupation | The occupation of the person |
-|Sleep_duration | The duration of sleep of the person in hours |
-|Quality_of_sleep | A subjective rating of the quality of sleep, ranging from 1 to 10|
-|Physical_activity | The level of physical activity of the person (Low/Medium/High) |
-|Stress Level| A subjective rating of the stress level, ranging from 1 to 10 |
-|BMI_category | The BMI category of the person (Underweight/Normal/Overweight/Obesity) |
-|Blood_pressure | The blood pressure of the person in mmHg |
-|Heart_rate | The heart rate of the person in beats per minute |
-|Daily Steps | The number of steps taken by the person per day |
-|Sleep_disorder | The presence or absence of a sleep disorder in the person (None, Insomnia, Sleep Apnea) |
+|Patient_ID | Unique ID assigned to each Patient |
+|Admit_Date|Date when the patient was admitted to the hospital|
+|Discharge_Date | Date when the patient was discharged |
+|Diagnosis | Medical condition diagnosed (e.g., Viral Infection, Malaria) |
+|Bed_Occupency | Type of hospital bed used (General, ICU, Private) |
+|Test | Medical test conducted (MRI, CT Scan, X-Ray, Blood Test) |
+|Doctor | Name of the attending doctor |
+|Followup Date| Scheduled follow-up appointment date |
+|Feedback | Patient feedback rating (scale from 1 to 5) |
+|Billing Amount | Total amount charged to the patient (in INR) |
+|Health Insurance Amount | Amount covered by health insurance (in INR) |
+
 
 ## Impact
-By undertaking this data science project, we aim to provide valuable insights into the factors influencing sleep disorders and develop a model that can help identify individuals at risk, thus promoting better sleep health and overall well-being.
+By conducting this Healthcare Data Analysis, we aim to:
+✅ Optimize Hospital Resource Utilization – Improve bed allocation and staff planning based on admission trends.
+✅ Enhance Patient Care & Service Quality – Identify common diagnoses and medical tests, improving diagnostic efficiency.
+✅ Support Financial Planning & Cost Management – Analyze billing patterns and insurance claims to streamline hospital revenue models.
+✅ Improve Post-Hospitalization Follow-ups – Assess follow-up compliance to enhance long-term patient care.
+
+
