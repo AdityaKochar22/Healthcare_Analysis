@@ -42,4 +42,8 @@ By conducting this Healthcare Data Analysis, we aim to:
 3. Support Financial Planning & Cost Management – Analyze billing patterns and insurance claims to streamline hospital revenue models.
 4. Improve Post-Hospitalization Follow-ups – Assess follow-up compliance to enhance long-term patient care.
 
+### Here is the Screenshot of the Powerbi dashboard made for the Healthcare Analysis
+![WhatsApp Image 2025-02-07 at 7 18 43 PM](https://github.com/user-attachments/assets/ce6ca5aa-5086-46be-bf60-a38e3d920474)
+
+
 
