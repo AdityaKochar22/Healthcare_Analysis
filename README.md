@@ -37,9 +37,9 @@ Follow-up trends indicate how quickly patients return for check-ups, highlightin
 
 ## Impact
 By conducting this Healthcare Data Analysis, we aim to:
-✅ Optimize Hospital Resource Utilization – Improve bed allocation and staff planning based on admission trends.
-✅ Enhance Patient Care & Service Quality – Identify common diagnoses and medical tests, improving diagnostic efficiency.
-✅ Support Financial Planning & Cost Management – Analyze billing patterns and insurance claims to streamline hospital revenue models.
-✅ Improve Post-Hospitalization Follow-ups – Assess follow-up compliance to enhance long-term patient care.
+1. Optimize Hospital Resource Utilization – Improve bed allocation and staff planning based on admission trends.
+2. Enhance Patient Care & Service Quality – Identify common diagnoses and medical tests, improving diagnostic efficiency.
+3. Support Financial Planning & Cost Management – Analyze billing patterns and insurance claims to streamline hospital revenue models.
+4. Improve Post-Hospitalization Follow-ups – Assess follow-up compliance to enhance long-term patient care.
 
 
